@@ -1,0 +1,92 @@
+/* =========================================================
+   DESIGN TOKENS
+   A restrained system: zinc neutrals,
+   one vermilion accent, fluid rem sizing, soft radii.
+   Change the font or accent here and the whole site follows.
+   ========================================================= */
+:root {
+  /* ---- Type ---- */
+  --font-sans: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* ---- Neutrals (zinc) ---- */
+  --white: #ffffff;
+  --zinc-50: #fafafa;
+  --zinc-100: #f4f4f5;
+  --zinc-200: #e4e4e7;
+  --zinc-300: #d4d4d8;
+  --zinc-400: #a1a1aa;
+  --zinc-500: #71717a;
+  --zinc-600: #52525b;
+  --zinc-700: #3f3f46;
+  --zinc-800: #27272a;
+  --zinc-900: #18181b;
+  --zinc-950: #09090b;
+  --black: #111111;
+  --night: #0b0a09;
+
+  /* ---- Brand ---- */
+  --orange: #fc5f2b;
+  --orange-700: #f7861e;
+  --orange-500: #fdba74;
+  --orange-300: #fed7aa;
+  --orange-100: #ffedd5;
+  --orange-50: #fff6ea;
+  --cream: #f6f2ec;
+
+  /* ---- Semantic ---- */
+  --text: var(--zinc-900);
+  --text-2: var(--zinc-500);
+  --text-3: var(--zinc-500);
+  --bg: var(--white);
+  --bg-2: var(--zinc-50);
+  --bg-3: var(--zinc-100);
+  --line: var(--zinc-200);
+  --line-2: var(--zinc-300);
+
+  /* ---- Radius ---- */
+  --r-xxs: .25rem;
+  --r-xs: .375rem;
+  --r-sm: .5rem;
+  --r-md: .625rem;
+  --r-lg: .75rem;
+  --r-xl: 1rem;
+  --r-2xl: 1.25rem;
+  --r-3xl: 1.5rem;
+  --r-4xl: 2.5rem;
+  --r-full: 9999px;
+
+  /* ---- Layout ---- */
+  --container: 80rem;
+  --gutter: 1.5rem;
+  --section-y: 7rem;
+  --nav-h: 4.75rem;
+  --inset: .5rem; /* hero / stage / CTA card inset from the viewport edge */
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-sheet: cubic-bezier(0.32, 0.72, 0, 1);  /* sheet / modal curve */
+  --ease-acc: cubic-bezier(0.4, 0, 0.2, 1);      /* accordion curve */
+  --t-fast: .25s;
+  --t-base: .5s;
+  --t-slow: .9s;
+
+  /* ---- Elevation ---- */
+  --shadow-xs: 0 1.4px 1.4px rgba(0, 0, 0, .02);
+  --shadow-md: 0 .5rem 3rem rgba(0, 0, 0, .12);
+  --shadow-lg: 0 30px 80px -20px rgba(0, 0, 0, .35);
+}
+
+/* Fluid root size: ~15px at 1440px wide, scales with the viewport */
+html { font-size: clamp(15px, 10.2px + 0.335vw, 17.5px); }
+
+@media (max-width: 767px) {
+  :root {
+    --gutter: 1.25rem;
+    --section-y: 4.5rem;
+    --nav-h: 4rem;
+    --inset: .375rem;
+  }
+  html { font-size: 15.5px; }
+}

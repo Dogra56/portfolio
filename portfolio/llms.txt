@@ -1,0 +1,45 @@
+# Shashwat Sharma
+
+> GenAI engineer from Shimla, Himachal Pradesh, India. Builds AI systems that act: autonomous agents, retrieval pipelines (RAG), fine-tuned language models and scalable GenAI applications, with a focus on AI security. Final-year B.E. + M.E. Computer Science Engineering (Information Security) student at Chandigarh University, graduating 2027.
+
+## Facts
+- Role: GenAI Engineer; GenAI / Product Builder Intern at Startiqos.AI (2025 – 2026)
+- Education: B.E. + M.E., Computer Science Engineering (Information Security), Chandigarh University, Mohali — graduating 2027
+- Thesis: Verifiable Delegated Authority for Autonomous AI Agents (in progress)
+- Builds: scalable applications, GenAI products, SaaS products
+- Location: Shimla, Himachal Pradesh, India
+
+## Experience
+- Startiqos.AI (2025 – 2026), GenAI / Product Builder Intern: agentic workflows in LangGraph and CrewAI for idea validation, market analysis and execution planning; RAG pipelines with FastAPI backends; containerized Docker services integrating REST APIs with PostgreSQL and Supabase.
+
+## Projects
+- **Warrant AI:** A zero-trust identity and access-control architecture that verifies delegated authority between autonomous AI agents before they act. Final-year thesis, in progress.
+- **LLM Fine-Tuning & Evaluation:** Fine-tuned LLaMA 3 and Mistral with LoRA and QLoRA using Hugging Face Transformers and PEFT, on curated JSONL instruction datasets, compared on held-out evaluation sets.
+- **Autonomous Enterprise Operating System:** An AI-native operating system with LangGraph agents and a shared vector-database retrieval layer that automates routine workflows across 8 business functions: HR, Finance, Sales, Marketing, Customer Support, Legal, Operations and IT.
+- **Incident Response & Threat Detection Dashboard:** A Power BI dashboard that brings incident and threat data into one place, so a security team can spot threats and respond faster.
+- **Multi-Agent Startup Idea Validator:** A RAG system where several AI agents with different points of view debate one startup idea, then return a single balanced verdict. Built at Startiqos.AI.
+
+## Skills
+- Languages: Python, SQL
+- Frameworks: FastAPI, Pydantic, LangChain, LangGraph, CrewAI, Hugging Face Transformers, PEFT, PyTorch
+- AI & ML: Generative AI, LLM fine-tuning (LoRA, QLoRA), RAG pipelines, multi-agent systems, prompt & context engineering, NLP, model evaluation
+- Models & platforms: GPT-4o, Claude API, Gemini, LLaMA 3, Mistral, Ollama
+- Data & tools: PostgreSQL, Supabase, vector databases, Git, GitHub, Docker, n8n, REST APIs, Power BI
+- Strong subjects: Operating Systems, Computer Networks, Information Security
+
+## Certifications
+- Multi AI Agent Systems with CrewAI
+- Building and Evaluating Advanced RAG
+- ChatGPT Prompt Engineering for Developers
+- Hugging Face NLP and Transformers
+- Learning Python: From Beginner to Expert
+
+## Leadership
+- Class Representative, Training and Placement Program, Chandigarh University
+
+## Contact
+- Email: shashwatdogra13@gmail.com
+- Phone: +91 78766 10325
+- LinkedIn: https://www.linkedin.com/in/shashwat-sharma-80312724a
+- GitHub: https://github.com/Dogra56
+- Website: https://shashwatsharma.netlify.app/

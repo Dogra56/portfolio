@@ -1,0 +1,18 @@
+# Everyone, including AI assistants and answer engines, is welcome.
+User-agent: *
+Allow: /
+Disallow: /assets/resume/
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://shashwatsharma.netlify.app/sitemap.xml

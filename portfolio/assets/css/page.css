@@ -1,0 +1,24 @@
+/* Simple text pages: privacy, credits, thanks, 404 */
+.page { min-height: 100svh; display: flex; flex-direction: column; }
+.page__top { padding: 1.25rem var(--gutter); }
+.page__top .container { display: flex; justify-content: space-between; align-items: center; padding: 0; }
+.page__main { flex: 1; padding: 4rem 0 6rem; }
+.page__main .container { max-width: calc(46rem + var(--gutter) * 2); }
+.page__kicker { font-size: .875rem; color: var(--text-2); margin-bottom: .75rem; }
+.page__title { font-size: 3rem; line-height: 1.1; letter-spacing: -0.025em; font-weight: 400; margin-bottom: 1rem; }
+.page__lead { font-size: 1.125rem; color: var(--text-2); margin-bottom: 2.5rem; }
+.prose { display: grid; gap: 1rem; font-size: 1rem; line-height: 1.7; color: var(--zinc-700); }
+.prose h2 { font-size: 1.35rem; font-weight: 400; letter-spacing: -0.015em; color: var(--text); margin-top: 1.5rem; }
+.prose ul { display: grid; gap: .4rem; padding-left: 1.2rem; list-style: disc; }
+.prose a { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
+.prose table { width: 100%; border-collapse: collapse; font-size: .9375rem; }
+.prose th, .prose td { text-align: left; padding: .7rem .5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.prose th { font-weight: 500; color: var(--text); }
+.page__foot { padding: 1.5rem var(--gutter); border-top: 1px solid var(--line); font-size: .875rem; color: var(--text-2); }
+.page__foot .container { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding: 0; }
+.page__foot a:hover { color: var(--orange); }
+.page--center .page__main { display: grid; place-items: center; text-align: center; }
+.page--center .page__main .container { display: grid; justify-items: center; gap: 1rem; }
+.page__mark { width: 4rem; height: 4rem; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #ffd2a8, var(--orange) 50%, #b93a10); box-shadow: 0 20px 40px -14px rgba(252,95,43,.7); display: grid; place-items: center; color: #fff; margin-bottom: .5rem; }
+.page__mark .i { width: 1.6rem; height: 1.6rem; }
+@media (max-width: 767px) { .page__title { font-size: 2.2rem; } .page__main { padding: 2.5rem 0 4rem; } }
